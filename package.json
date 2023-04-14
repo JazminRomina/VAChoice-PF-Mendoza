@@ -1,0 +1,16 @@
+{
+  "name": "vachoice",
+  "version": "1.0.0",
+  "description": "Se hizo vista mobile y desktop de las páginas index y tienda.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass":"sass",
+    "sass:watch":"sass --watch scss/main.scss  css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.62.0"
+  }
+}

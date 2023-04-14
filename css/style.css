@@ -767,7 +767,6 @@ footer{
 .texto_index{
     margin: 20px;
     font-size: 1em;
-    text-align: center;
 }
 .video-index{
     width: 560px;
@@ -924,7 +923,6 @@ footer{
 .texto_index{
     margin: 30px;
     font-size: 1em;
-    text-align: center;
 }
 .video-index{
     width: 410px;
@@ -1104,7 +1102,7 @@ footer{
 @media(max-width: 536px){
 /* pagina index */
 .video-index{
-    width: 400px;
+    width: 410px;
     height: 250px;
 }
 .img-index{
@@ -1114,7 +1112,7 @@ footer{
 .grid_index{
     padding: 20px;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 70px 590px 80px 560px 70px 570px 70px 570px 100px 380px 380px 380px 380px 380px 380px;
+    grid-template-rows: 100px 60px 570px 70px 570px 70px 570px 70px 570px 80px 380px 380px 380px 380px 380px 380px;
     grid-template-areas:
     "t1"
     "t2"
@@ -1169,6 +1167,8 @@ footer{
     }
     .grid_index .titulo-6{
         grid-area: t6;
+        font-size: 1em;
+        margin-top: 60px;
     }
     .grid_index .vid-1{
         grid-area: v1;
@@ -1316,6 +1316,7 @@ height: 85vh;
 @media(max-width: 425px){
 /* pagina index */
 .texto_index{
+    margin: 30px;
     font-size: 0.8em;
 }
 .video-index{
@@ -1335,6 +1336,7 @@ height: 85vh;
     height: 45px;
 }
 .grid_index{
+    padding: 10px;
     grid-template-columns: 1fr;
     grid-template-rows: 80px 50px 430px 60px 440px 60px 440px 60px 420px 70px 360px 350px 350px 350px 350px 350px;
     grid-template-areas:
