@@ -1,0 +1,30 @@
+footer{
+    background-color: $mainBg;
+    display: $d;
+    align-items: $centro;
+    justify-content: space-around;
+    padding: 20px;
+    img{
+        width: 280px;
+        height: 55px;
+        display: $d;
+    }
+    p{
+        color: rgb(255, 255, 255);
+        font-size: 1.7em;
+    }
+    ul{
+        li{
+            list-style: square;
+            color: white;
+            a{
+                color: white;
+                font-size: map-get($map: $fontSize, $key: seis );
+                text-decoration: none;
+            }
+        }
+    }
+    .footer-derechos{
+        font-size: map-get($map: $fontSize, $key: ocho );
+    }
+}

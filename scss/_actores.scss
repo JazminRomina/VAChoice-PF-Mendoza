@@ -1,0 +1,53 @@
+.grid_actores{
+    display: $g;
+    padding: 20px;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 100px 400px 400px 120px 400px 400px;
+    grid-template-areas:
+    "tp tp"
+    "t-1 t-1"
+    "a1 a1"
+    "a2 a2"
+    "t-2 t-2"
+    "a3 a3"
+    "a4 a4";
+    .img-actores{
+        height: 350px;
+        width: 350px;
+    }
+    .textActores{
+        font-size: 1.2em;
+        margin: 20px;
+    }
+    .subTitleActores{
+        font-size: 1.11em;
+    }
+    .titulo-principal{
+        grid-area: tp;
+        font-size: map-get($map: $fontSize, $key: siete );
+        margin-top: -10px;
+    }
+    .title1{
+        grid-area: t-1;
+    }
+    .actor-1{
+        grid-area: a1;
+        @include actores (flex, flex-start, center);
+    }
+    .actor-2{
+        grid-area: a2;
+        @include actores (flex, flex-start, center);
+    }
+    .title2{
+        grid-area: t-2;
+    }
+    .actor-3{
+        grid-area: a3;
+        @include actores (flex, flex-start, center);
+    }
+    .actor-4{
+        grid-area: a4;
+        @include actores (flex, flex-start, center);
+    }
+}

@@ -1,0 +1,35 @@
+// mixins
+@mixin text ($display,$ta,$ai){
+    display: $display;
+    text-align: $ta;
+    align-items: $ai;
+}
+@mixin actores ($display,$jc,$ai){
+    display: $display;
+    justify-content: $jc;
+    align-items: $ai;
+}
+@mixin boton ($border,$bg,$color,$br,$pd,$mb,$mt){
+    border: $border;
+    background-color: $bg;
+    color: $color;
+    border-radius: $br;
+    padding: $pd;
+    margin-bottom: $mb;
+    margin-top: $mt;
+}
+// extend
+.btn-contacto{
+    @include boton (solid,#0C2F5D,white,10px,8px,20px,10px);
+}
+// maps
+$fontSize: (
+    'uno': 2.8em,
+    'dos': 2.2em,
+    'tres': 1.9em,
+    'cuatro': 1.4em,
+    'cinco': 1.3em,
+    'seis': 1.2em,
+    'siete': 1.1em,
+    'ocho' : 1em,
+)

@@ -1,0 +1,53 @@
+.title-hoyoverse{
+    font-size: map-get($map: $fontSize, $key: siete );
+    margin-bottom: -30px;
+    text-align: $centro;
+}
+.contenedor-inf{
+    text-align: $centro;
+    padding: 30px;
+    font-size: map-get($map: $fontSize, $key: seis );
+    .contenedor-img{
+        display: $d;
+        justify-content: space-evenly;
+        align-items: $centro;
+        .img-lugar{
+            width: 500px;
+            height: 350px;
+        }
+    }
+}
+.subtitulo-hoyoverse{
+    font-size: map-get($map: $fontSize, $key: seis );
+    text-align: $derecho;
+    margin-left: 50px;
+    margin-bottom: -40px;
+}
+.contenedor-rs{
+    display: $d;
+    justify-content: space-around;
+    align-items: $centro;
+    padding: 60px;
+    .video-hoyoverse{
+        width: 560px;
+        height: 315px;
+    }
+    .mini-hoyoverse{
+        display: $d;
+        flex-direction: row;
+        align-items: $centro;
+        }
+    .img-hoyoverse{
+        width: 150px;
+        height: 150px;
+    }
+    .titulo-vid{
+        font-size: 0.7em;
+        font-style: italic;
+        color: #424242bb;
+    }
+    .text-vid{
+        font-size: map-get($map: $fontSize, $key: siete );
+        margin: 20px;
+    }
+}

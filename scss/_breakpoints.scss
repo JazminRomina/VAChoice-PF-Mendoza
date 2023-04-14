@@ -1,0 +1,1529 @@
+// 1er Breakpoint
+@media(max-width: 1400px){
+// page index
+.grid_index{
+    box-sizing: border-box;
+    padding: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 60px 470px 60px 460px 60px 460px 60px 460px 100px 500px 500px 500px 500px 500px 500px;
+    grid-template-areas:
+    "t1"
+    "t2"
+    "inf1"
+    "t3"
+    "inf2"
+    "t4"
+    "inf3"
+    "t5"
+    "inf4"
+    "t6"
+    "v1"
+    "v2"
+    "v3"
+    "v4"
+    "v5"
+    "v6";
+    .texto_index{
+        margin: 30px;
+        font-size: map-get($map: $fontSize, $key: siete );
+        text-align: $centro;
+    }
+    .titulo-1{
+        grid-area: t1;
+        font-size: 0.9em;
+        text-align: $centro;
+    }
+    .titulo-2{
+        grid-area: t2;
+        text-align: $centro;
+        margin-top: 10px;
+    }
+    .info-1{
+        grid-area: inf1;
+        justify-content: $centro;
+        flex-direction: column-reverse;
+        margin-top: -20px;
+    }
+    .titulo-3{
+        grid-area: t3;
+        text-align: $centro;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .info-2{
+        grid-area: inf2;
+        justify-content: $centro;
+        flex-direction: column-reverse;
+        margin-top: -20px;
+    }
+    .titulo-4{
+        grid-area: t4;
+        text-align: $centro;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .info-3{
+        grid-area: inf3;
+        justify-content: $centro;
+        flex-direction: column-reverse;
+        margin-top: -20px;
+    }
+    .titulo-5{
+        grid-area: t5;
+        text-align: $centro;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .info-4{
+        grid-area: inf4;
+        justify-content: $centro;
+        flex-direction: column-reverse;
+        margin-top: -20px;
+    }
+    .titulo-6{
+        grid-area: t6;
+        text-align: $centro;
+        margin-top: 60px;
+        font-size: map-get($map: $fontSize, $key: siete );
+    }
+    .vid-1{
+        grid-area: v1;
+        flex-direction: column;
+        justify-content: $centro;
+        align-items: $centro;
+        font-size: map-get($map: $fontSize, $key: cinco );
+        text-align: $centro;
+    }
+    .vid-2{
+        grid-area: v2;
+        flex-direction: column;
+        justify-content: $centro;
+        align-items: $centro;
+        font-size: map-get($map: $fontSize, $key: cinco );
+        text-align: $centro;
+    }
+    .vid-3{
+        grid-area: v3;
+        flex-direction: column;
+        justify-content: $centro;
+        align-items: $centro;
+        font-size: map-get($map: $fontSize, $key: cinco );
+        text-align: $centro;
+    }
+    .vid-4{
+        grid-area: v4;
+        flex-direction: column;
+        justify-content: $centro;
+        align-items: $centro;
+        font-size: map-get($map: $fontSize, $key: cinco );
+        text-align: $centro;
+    }
+    .vid-5{
+        grid-area: v5;
+        flex-direction: column;
+        justify-content: $centro;
+        align-items: $centro;
+        font-size: map-get($map: $fontSize, $key: cinco );
+        text-align: $centro;
+    }
+    .vid-6{
+        grid-area: v6;
+        flex-direction: column;
+        justify-content: $centro;
+        align-items: $centro;
+        font-size: map-get($map: $fontSize, $key: cinco );
+        text-align: $centro;
+    }
+}
+// page hoyoverse
+.contenedor-inf{
+    .contenedor-img{
+        justify-content: $centro;
+        flex-direction: column;
+        align-items: $centro;
+        .img-lugar{
+            padding: 10px;
+        }
+    }
+}
+}
+// 2do Breakpoint
+@media(max-width: 1024px){
+// page index
+.grid_index{
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 60px 530px 70px 510px 70px 510px 70px 510px 100px 500px 500px 500px 500px 500px 500px;
+    grid-template-areas:
+    "t1"
+    "t2"
+    "inf1"
+    "t3"
+    "inf2"
+    "t4"
+    "inf3"
+    "t5"
+    "inf4"
+    "t6"
+    "v1"
+    "v2"
+    "v3"
+    "v4"
+    "v5"
+    "v6";
+    .texto_index{
+        margin: 20px;
+    }
+    .titulo-1{
+        grid-area: t1;
+        font-size: 0.8em;
+    }
+    .titulo-2{
+        grid-area: t2;
+        padding: 10px;
+    }
+    .info-1{
+        grid-area: inf1;
+    }
+    .titulo-3{
+        grid-area: t3;
+        margin-top: 15px;
+    }
+    .info-2{
+        grid-area: inf2;
+    }
+    .titulo-4{
+        grid-area: t4;
+        margin-top: 20px;
+    }
+    .info-3{
+        grid-area: inf3;
+    }
+    .titulo-5{
+        grid-area: t5;
+        margin-top: 20px;
+    }
+    .info-4{
+        grid-area: inf4;
+    }
+    .titulo-6{
+        grid-area: t6;
+    }
+    .vid-1{
+        grid-area: v1;
+    }
+    .vid-2{
+        grid-area: v2;
+    }
+    .vid-3{
+        grid-area: v3;
+    }
+    .vid-4{
+        grid-area: v4;
+    }
+    .vid-5{
+        grid-area: v5;
+    }
+    .vid-6{
+        grid-area: v6;
+    }
+}
+// header
+header{
+    .img-banner{
+        height: 90vh;
+        object-fit: cover;
+    }
+}
+// page tienda
+.tituloTienda{
+    font-size: map-get($map: $fontSize, $key: siete );
+    margin-bottom: -20px;
+    text-align: $centro;
+}
+.subTituloTienda{
+    text-align: $derecho;
+    margin: 40px;
+}
+.centro{
+    text-align: $centro;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.productos{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    figure{
+        width: 45%;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        margin: 10px;
+        p{
+            font-size: map-get($map: $fontSize, $key: ocho );
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+    }
+}
+// page actores
+.grid_actores{
+    padding: 20px;
+    box-sizing: border-box;
+    grid-template-columns: 1fr;
+    grid-template-rows: 55px 120px 650px 560px 160px 560px 560px;
+    grid-template-areas:
+    "tp"
+    "t-1"
+    "a1"
+    "a2"
+    "t-2"
+    "a3"
+    "a4";
+    .img-actores{
+        height: 280px;
+        width: 280px;
+    }
+    .textActores{
+        font-size: map-get($map: $fontSize, $key: siete );
+        margin: 20px;
+        text-align: $centro;
+    }
+    .subTitleActores{
+        font-size: 0.9em;
+    }
+    .titulo-principal{
+        grid-area: tp;
+        font-size: map-get($map: $fontSize, $key: ocho );
+        margin-top: -10px;
+    }
+    .title1{
+        grid-area: t-1;
+        font-size: map-get($map: $fontSize, $key: ocho );
+        text-align: $centro;
+        padding: 20px;
+    }
+    .actor-1{
+        grid-area: a1;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .actor-2{
+        grid-area: a2;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .title2{
+        grid-area: t-2;
+        text-align: $centro;
+        margin-top: 20px;
+        padding: 20px;
+        font-size: map-get($map: $fontSize, $key: ocho );
+    }
+    .actor-3{
+        grid-area: a3;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .actor-4{
+        grid-area: a4;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+}
+// page hoyoverse
+.contenedor-inf{
+    .contenedor-img{
+        .img-lugar{
+            width: 500px;
+            height: 350px;
+        }
+    }
+}
+.contenedor-rs{
+    flex-direction: column-reverse;
+    align-items: $centro;
+    padding: 30px;
+}
+.subtitulo-hoyoverse{
+    font-size: map-get($map: $fontSize, $key: seis );
+    text-align: $centro;
+    margin-left: 50px;
+    margin-bottom: -40px;
+}
+}
+// 3er Breakpoint
+@media(max-width: 768px){
+// footer
+footer{
+    flex-direction: column;
+    align-items: $centro;
+    padding: 20px;
+}
+    footer p{
+        font-size: map-get($map: $fontSize, $key: cinco );
+    }
+// page index
+.grid_index{
+    grid-template-columns: 1fr;
+    grid-template-rows: 90px 60px 530px 75px 500px 80px 510px 70px 510px 100px 500px 500px 500px 500px 500px 500px;
+    grid-template-areas:
+    "t1"
+    "t2"
+    "inf1"
+    "t3"
+    "inf2"
+    "t4"
+    "inf3"
+    "t5"
+    "inf4"
+    "t6"
+    "v1"
+    "v2"
+    "v3"
+    "v4"
+    "v5"
+    "v6";
+    .texto_index{
+        margin: 20px;
+        font-size: map-get($map: $fontSize, $key: ocho );
+    }
+    .video-index{
+        width: 560px;
+        height: 300px;
+    }
+    .titulo-1{
+        grid-area: t1;
+        font-size: 0.8em;
+    }
+    .titulo-2{
+        grid-area: t2;
+        font-size: 0.85em;
+    }
+    .info-1{
+        grid-area: inf1;
+    }
+    .titulo-3{
+        grid-area: t3;
+        font-size: 0.85em;
+    }
+    .info-2{
+        grid-area: inf2;
+    }
+    .titulo-4{
+        grid-area: t4;
+        font-size: 0.85em;
+    }
+    .info-3{
+        grid-area: inf3;
+    }
+    .titulo-5{
+        grid-area: t5;
+        font-size: 0.85em;
+    }
+    .info-4{
+        grid-area: inf4;
+    }
+    .titulo-6{
+        grid-area: t6;
+    }
+    .vid-1{
+        grid-area: v1;
+    }
+    .vid-2{
+        grid-area: v2;
+    }
+    .vid-3{
+        grid-area: v3;
+    }
+    .vid-4{
+        grid-area: v4;
+    }
+    .vid-5{
+        grid-area: v5;
+    }
+    .vid-6{
+        grid-area: v6;
+    }
+}
+// page actores
+.grid_actores{
+    padding: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 55px 110px 650px 580px 150px 590px 580px;
+    grid-template-areas:
+    "tp"
+    "t-1"
+    "a1"
+    "a2"
+    "t-2"
+    "a3"
+    "a4";
+    .img-actores{
+        height: 280px;
+        width: 280px;
+    }
+    .textActores{
+        font-size: map-get($map: $fontSize, $key: ocho );
+        margin: 20px;
+        text-align: $centro;
+    }
+    .titulo-principal{
+        grid-area: tp;
+        font-size: 0.95em;
+        margin-top: -10px;
+    }
+    .title1{
+        grid-area: t-1;
+        font-size: map-get($map: $fontSize, $key: ocho );
+        text-align: $centro;
+        padding: 20px;
+    }
+    .actor-1{
+        grid-area: a1;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        font-size: map-get($map: $fontSize, $key: ocho );
+        justify-content: $centro;
+    }
+    .actor-2{
+        grid-area: a2;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .title2{
+        grid-area: t-2;
+        text-align: $centro;
+        padding: 20px;
+        font-size: map-get($map: $fontSize, $key: ocho );
+    }
+    .actor-3{
+        grid-area: a3;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .actor-4{
+        grid-area: a4;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+}
+}
+// 4to Breakpoint
+@media(max-width: 600px){
+// logo
+nav{
+    .logo-size{
+        width: 280px;
+        height: 55px;
+    }
+}
+// page index
+.grid_index{
+    grid-template-columns: 1fr;
+    grid-template-rows: 90px 50px 520px 60px 520px 60px 520px 50px 520px 100px 400px 400px 400px 400px 400px 400px;
+    grid-template-areas:
+    "t1"
+    "t2"
+    "inf1"
+    "t3"
+    "inf2"
+    "t4"
+    "inf3"
+    "t5"
+    "inf4"
+    "t6"
+    "v1"
+    "v2"
+    "v3"
+    "v4"
+    "v5"
+    "v6";
+    .texto_index{
+        margin: 30px;
+        font-size: map-get($map: $fontSize, $key: ocho );
+    }
+    .video-index{
+        width: 410px;
+        height: 250px;
+    }
+    .img-index{
+        width: 400px;
+        height: 220px;
+    }
+    .titulo-1{
+        grid-area: t1;
+        font-size: 0.7em;
+    }
+    .titulo-2{
+        grid-area: t2;
+        font-size: 0.8em;
+    }
+    .info-1{
+        grid-area: inf1;
+    }
+    .titulo-3{
+        grid-area: t3;
+        font-size: 0.8em;
+    }
+    .info-2{
+        grid-area: inf2;
+    }
+    .titulo-4{
+        grid-area: t4;
+        font-size: 0.8em;
+    }
+    .info-3{
+        grid-area: inf3;
+    }
+    .titulo-5{
+        grid-area: t5;
+        font-size: 0.8em;
+    }
+    .info-4{
+        grid-area: inf4;
+    }
+    .titulo-6{
+        grid-area: t6;
+        font-size: map-get($map: $fontSize, $key: ocho );
+    }
+    .vid-1{
+        grid-area: v1;
+    }
+    .vid-2{
+        grid-area: v2;
+    }
+    .vid-3{
+        grid-area: v3;
+    }
+    .vid-4{
+        grid-area: v4;
+    }
+    .vid-5{
+        grid-area: v5;
+    }
+    .vid-6{
+        grid-area: v6;
+    }
+}
+// page actores
+.grid_actores{
+    padding: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 55px 120px 670px 590px 140px 610px 600px;
+    grid-template-areas:
+    "tp"
+    "t-1"
+    "a1"
+    "a2"
+    "t-2"
+    "a3"
+    "a4";
+    .img-actores{
+        height: 280px;
+        width: 280px;
+    }
+    .textActores{
+        font-size: map-get($map: $fontSize, $key: ocho );
+        margin: 20px;
+        text-align: $centro;
+    }
+    .titulo-principal{
+        grid-area: tp;
+        font-size: 0.95em;
+        margin-top: -10px;
+    }
+    .title1{
+        grid-area: t-1;
+        font-size: 0.9em;
+        text-align: $centro;
+        padding: 20px;
+    }
+    .actor-1{
+        grid-area: a1;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .actor-2{
+        grid-area: a2;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .title2{
+        grid-area: t-2;
+        text-align: $centro;
+        padding: 20px;
+        font-size: 0.9em;
+    }
+    .actor-3{
+        grid-area: a3;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .actor-4{
+        grid-area: a4;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+}
+// page hoyoverse
+.title-hoyoverse{
+    font-size: map-get($map: $fontSize, $key: ocho );
+}
+.subtitulo-hoyoverse{
+    font-size: map-get($map: $fontSize, $key: ocho );
+}
+.contenedor-inf{
+    font-size: map-get($map: $fontSize, $key: ocho );
+}
+.contenedor-rs{
+    .video-hoyoverse{
+        width: 480px;
+        height: 260px;
+    }
+    .mini-hoyoverse{
+        justify-content: $centro;
+    }
+    .titulo-vid{
+        font-size: 0.65em;
+    }
+    .text-vid{
+        font-size: map-get($map: $fontSize, $key: ocho );
+        margin: 20px;
+    }
+}
+}
+// 5to Breakpoint
+@media(max-width: 536px){
+// carrousel
+.slide {
+    img{
+        height: 80vh;
+        object-fit: cover;
+    }
+}
+// page index
+.grid_index{
+    padding: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 60px 570px 70px 570px 70px 570px 70px 570px 120px 380px 380px 380px 380px 380px 380px;
+    grid-template-areas:
+    "t1"
+    "t2"
+    "inf1"
+    "t3"
+    "inf2"
+    "t4"
+    "inf3"
+    "t5"
+    "inf4"
+    "t6"
+    "v1"
+    "v2"
+    "v3"
+    "v4"
+    "v5"
+    "v6";
+    .video-index{
+        width: 410px;
+        height: 250px;
+    }
+    .img-index{
+        width: 400px;
+        height: 220px;
+    }
+    .titulo-1{
+        grid-area: t1;
+        font-size: 0.7em;
+    }
+    .titulo-2{
+        grid-area: t2;
+        font-size: 0.8em;
+    }
+    .info-1{
+        grid-area: inf1;
+        margin-top: -15px;
+    }
+    .titulo-3{
+        grid-area: t3;
+        font-size: 0.8em;
+    }
+    .info-2{
+        grid-area: inf2;
+    }
+    .titulo-4{
+        grid-area: t4;
+        font-size: 0.8em;
+        margin-top: 20px;
+    }
+    .info-3{
+        grid-area: inf3;
+    }
+    .titulo-5{
+        grid-area: t5;
+        font-size: 0.8em;
+    }
+    .info-4{
+        grid-area: inf4;
+    }
+    .titulo-6{
+        grid-area: t6;
+        font-size: map-get($map: $fontSize, $key: ocho );
+        margin-top: 60px;
+    }
+    .vid-1{
+        grid-area: v1;
+    }
+    .vid-2{
+        grid-area: v2;
+    }
+    .vid-3{
+        grid-area: v3;
+    }
+    .vid-4{
+        grid-area: v4;
+    }
+    .vid-5{
+        grid-area: v5;
+    }
+    .vid-6{
+        grid-area: v6;
+    }
+}
+// header
+header{
+    .img-banner{
+        height: 85vh;
+        }
+}
+// page tienda
+.tituloTienda{
+    font-size: map-get($map: $fontSize, $key: ocho );
+    margin-bottom: -20px;
+}
+.subTituloTienda{
+    font-size: 0.9em;
+    text-align: $centro;
+    margin: 20px;
+}
+.productos{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    figure{
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        margin: 10px;
+        p{
+            font-size: map-get($map: $fontSize, $key: ocho );
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        figcaption{
+            font-size: 1.4em;
+        }
+    }
+}
+// page actores
+.grid_actores{
+    padding: 20px;
+    box-sizing: border-box;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 150px 670px 610px 170px 650px 630px;
+    grid-template-areas:
+    "tp"
+    "t-1"
+    "a1"
+    "a2"
+    "t-2"
+    "a3"
+    "a4";
+    .img-actores{
+        height: 280px;
+        width: 280px;
+    }
+    .textActores{
+        font-size: 0.9em;
+        margin: 20px;
+        text-align: $centro;
+    }
+    .titulo-principal{
+        grid-area: tp;
+        font-size: 0.8em;
+        margin-top: -10px;
+    }
+    .title1{
+        grid-area: t-1;
+        font-size: 0.8em;
+        text-align: $centro;
+        padding: 20px;
+    }
+    .actor-1{
+        grid-area: a1;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .actor-2{
+        grid-area: a2;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .title2{
+        grid-area: t-2;
+        text-align: $centro;
+        padding: 20px;
+        font-size: 0.8em;
+    }
+    .actor-3{
+        grid-area: a3;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .actor-4{
+        grid-area: a4;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+}
+// page hoyoverse
+.subtitulo-hoyoverse{
+    font-size: 0.9em;
+    margin-left: -10px;
+}
+.contenedor-inf{
+    .contenedor-img{
+        .img-lugar{
+            width: 390px;
+            height: 270px;
+        }
+    }
+}
+.contenedor-rs{
+    .video-hoyoverse{
+        width: 360px;
+        height: 210px;
+    }
+    .img-hoyoverse{
+        width: 120px;
+        height: 120px;
+    }
+    .text-vid{
+        text-align: $centro;
+    }
+}
+}
+// 6to Breakpoint
+@media(max-width: 425px){
+// nav
+nav{
+    .logo-size{
+        width: 250px;
+        height: 45px;
+    }
+}
+.slide {
+    img{
+        height: 80vh;
+        object-fit: cover;
+    }
+}
+// page index
+.grid_index{
+    padding: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 50px 430px 60px 440px 60px 440px 60px 420px 70px 360px 350px 350px 350px 350px 350px;
+    grid-template-areas:
+    "t1"
+    "t2"
+    "inf1"
+    "t3"
+    "inf2"
+    "t4"
+    "inf3"
+    "t5"
+    "inf4"
+    "t6"
+    "v1"
+    "v2"
+    "v3"
+    "v4"
+    "v5"
+    "v6";
+    .texto_index{
+        margin: 30px;
+        font-size: 0.8em;
+    }
+    .img-index{
+        width: 300px;
+        height: 140px;
+        object-fit: cover;
+    }
+    .video-index{
+        width: 350px;
+        height: 220px;
+    }
+    .titulo-1{
+        grid-area: t1;
+        font-size: 0.6em;
+    }
+    .titulo-2{
+        grid-area: t2;
+        font-size: 0.8em;
+    }
+    .info-1{
+        grid-area: inf1;
+    }
+    .titulo-3{
+        grid-area: t3;
+        font-size: 0.8em;
+    }
+    .info-2{
+        grid-area: inf2;
+    }
+    .titulo-4{
+        grid-area: t4;
+        font-size: 0.8em;
+        margin-top: 5px;
+    }
+    .info-3{
+        grid-area: inf3;
+    }
+    .titulo-5{
+        grid-area: t5;
+        font-size: 0.8em;
+    }
+    .info-4{
+        grid-area: inf4;
+    }
+    .titulo-6{
+        grid-area: t6;
+        font-size: 0.9em;
+        margin-top: 20px;
+    }
+    .vid-1{
+        grid-area: v1;
+        font-size: map-get($map: $fontSize, $key: seis );
+    }
+    .vid-2{
+        grid-area: v2;
+        font-size: map-get($map: $fontSize, $key: seis );
+    }
+    .vid-3{
+        grid-area: v3;
+        font-size: map-get($map: $fontSize, $key: seis );
+    }
+    .vid-4{
+        grid-area: v4;
+        font-size: map-get($map: $fontSize, $key: seis );
+    }
+    .vid-5{
+        grid-area: v5;
+        font-size: map-get($map: $fontSize, $key: seis );
+    }
+    .vid-6{
+        grid-area: v6;
+        font-size: map-get($map: $fontSize, $key: seis );
+    }
+}
+// page actores
+.grid_actores{
+    padding: 20px;
+    box-sizing: border-box;
+    grid-template-columns: 1fr;
+    grid-template-rows: 55px 150px 660px 600px 180px 600px 580px;
+    grid-template-areas:
+    "tp"
+    "t-1"
+    "a1"
+    "a2"
+    "t-2"
+    "a3"
+    "a4";
+    .img-actores{
+        height: 280px;
+        width: 280px;
+    }
+    .textActores{
+        font-size: 0.8em;
+        margin: 20px;
+        text-align: $centro;
+    }
+    .titulo-principal{
+        grid-area: tp;
+        font-size: 0.75em;
+        margin-top: -10px;
+    }
+    .title1{
+        grid-area: t-1;
+        font-size: 0.8em;
+        text-align: $centro;
+        padding: 20px;
+    }
+    .actor-1{
+        grid-area: a1;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .actor-2{
+        grid-area: a2;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .title2{
+        grid-area: t-2;
+        text-align: $centro;
+        padding: 10px;
+        font-size: 0.8em;
+    }
+    .actor-3{
+        grid-area: a3;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .actor-4{
+        grid-area: a4;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+}
+}
+// 7mo Breakpoint
+@media(max-width: 375px){
+// nav
+nav{
+    .logo-size{
+        width: 200px;
+        height: 40px;
+    }
+}
+.slide{
+    img{
+        height: 80vh;
+    }
+}
+// page index
+.grid_index{
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 50px 430px 50px 420px 50px 400px 50px 410px 60px 300px 300px 300px 300px 300px 300px;
+    grid-template-areas:
+    "t1"
+    "t2"
+    "inf1"
+    "t3"
+    "inf2"
+    "t4"
+    "inf3"
+    "t5"
+    "inf4"
+    "t6"
+    "v1"
+    "v2"
+    "v3"
+    "v4"
+    "v5"
+    "v6";
+    .texto_index{
+        margin: 20px;
+        font-size: 0.72em;
+    }
+    .video-index{
+        width: 300px;
+        height: 180px;
+    }
+    .img-index{
+        width: 290px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .titulo-1{
+        grid-area: t1;
+        font-size: 0.5em;
+    }
+    .titulo-2{
+        grid-area: t2;
+        font-size: 0.6em;
+    }
+    .info-1{
+        grid-area: inf1;
+    }
+    .titulo-3{
+        grid-area: t3;
+        font-size: 0.6em;
+        margin-top: 5px;
+    }
+    .info-2{
+        grid-area: inf2;
+    }
+    .titulo-4{
+        grid-area: t4;
+        font-size: 0.6em;
+    }
+    .info-3{
+        grid-area: inf3;
+    }
+    .titulo-5{
+        grid-area: t5;
+        font-size: 0.6em;
+        margin-top: 5px;
+    }
+    .info-4{
+        grid-area: inf4;
+    }
+    .titulo-6{
+        grid-area: t6;
+        font-size: 0.80em;
+    }
+    .vid-1{
+        grid-area: v1;
+        font-size: map-get($map: $fontSize, $key: siete );
+    }
+    .vid-2{
+        grid-area: v2;
+        font-size: map-get($map: $fontSize, $key: siete );
+    }
+    .vid-3{
+        grid-area: v3;
+        font-size: map-get($map: $fontSize, $key: siete );
+    }
+    .vid-4{
+        grid-area: v4;
+        font-size: map-get($map: $fontSize, $key: siete );
+    }
+    .vid-5{
+        grid-area: v5;
+        font-size: map-get($map: $fontSize, $key: siete );
+    }
+    .vid-6{
+        grid-area: v6;
+        font-size: map-get($map: $fontSize, $key: siete );
+    }
+}
+// page tienda
+.tituloPrincipal{
+    font-size: map-get($map: $fontSize, $key: ocho );
+    margin-bottom: -20px;
+    text-align: $centro;
+}
+.subTituloTienda{
+    text-align: $centro;
+    margin: 20px;
+    margin-bottom: -20px;
+    font-size: 0.8em;
+}
+// page hoyoverse
+.title-hoyoverse{
+    font-size: 0.7em;
+}
+.subtitulo-hoyoverse{
+    font-size: 0.8em;
+}
+.contenedor-inf{
+    font-size: 0.7em;
+    .contenedor-img{
+        .img-lugar{
+            width: 300px;
+            height: 220px;
+        }
+    }
+}
+.contenedor-rs{
+    .video-hoyoverse{
+        width: 300px;
+        height: 180px;
+    }
+    .text-vid{
+        font-size: 0.8em;
+    }
+}
+.grid_actores{
+    padding: 20px;
+    box-sizing: border-box;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 150px 680px 600px 160px 650px 630px;
+    grid-template-areas:
+    "tp"
+    "t-1"
+    "a1"
+    "a2"
+    "t-2"
+    "a3"
+    "a4";
+    .img-actores{
+        height: 280px;
+        width: 280px;
+    }
+    .textActores{
+        font-size: 0.75em;
+        margin: 20px;
+        text-align: $centro;
+    }
+    .titulo-principal{
+        grid-area: tp;
+        font-size: 0.63em;
+        margin-top: -10px;
+    }
+    .title1{
+        grid-area: t-1;
+        font-size: 0.75em;
+        text-align: $centro;
+        padding: 10px;
+    }
+    .actor-1{
+        grid-area: a1;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .actor-2{
+        grid-area: a2;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .title2{
+        grid-area: t-2;
+        text-align: $centro;
+        padding: 10px;
+        font-size: 0.75em;
+    }
+    .actor-3{
+        grid-area: a3;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .actor-4{
+        grid-area: a4;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+}
+}
+// 8vo Breakpoint
+@media(max-width: 320px){
+// nav
+nav{
+    .logo-size{
+        width: 200px;
+        height: 40px;
+    }
+}
+// footer
+footer{
+    div{
+        img{
+            width: 220px;
+            height: 50px;
+        }
+    }
+}
+// page index
+.grid_index{
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 50px 530px 50px 550px 50px 530px 50px 520px 60px 300px 300px 300px 300px 300px 300px;
+    grid-template-areas:
+    "t1"
+    "t2"
+    "inf1"
+    "t3"
+    "inf2"
+    "t4"
+    "inf3"
+    "t5"
+    "inf4"
+    "t6"
+    "v1"
+    "v2"
+    "v3"
+    "v4"
+    "v5"
+    "v6";
+    .texto_index{
+        margin: 30px;
+        font-size: 0.8em;
+    }
+    .img-index{
+        width: 250px;
+        height: 150px;
+        object-fit: cover;
+    }
+    .video-index{
+        width: 280px;
+        height: 185px;
+    }
+    .titulo-1{
+        grid-area: t1;
+        font-size: 0.5em;
+    }
+    .titulo-2{
+        grid-area: t2;
+        font-size: 0.6em;
+    }
+    .info-1{
+        grid-area: inf1;
+        margin-top: -20px;
+    }
+    .titulo-3{
+        grid-area: t3;
+        font-size: 0.6em;
+    }
+    .info-2{
+        grid-area: inf2;
+        margin-top: -20px;
+    }
+    .titulo-4{
+        grid-area: t4;
+        font-size: 0.6em;
+    }
+    .info-3{
+        grid-area: inf3;
+        margin-top: -25px;
+    }
+    .titulo-5{
+        grid-area: t5;
+        font-size: 0.6em;
+    }
+    .info-4{
+        grid-area: inf4;
+        margin-top: -35px;
+    }
+    .titulo-6{
+        grid-area: t6;
+        font-size: 0.70em;
+    }
+    .vid-1{
+        grid-area: v1;
+        font-size: map-get($map: $fontSize, $key: siete );
+    }
+    .vid-2{
+        grid-area: v2;
+        font-size: map-get($map: $fontSize, $key: siete );
+    }
+    .vid-3{
+        grid-area: v3;
+        font-size: map-get($map: $fontSize, $key: siete );
+    }
+    .vid-4{
+        grid-area: v4;
+        font-size: map-get($map: $fontSize, $key: siete );
+    }
+    .vid-5{
+        grid-area: v5;
+        font-size: map-get($map: $fontSize, $key: siete );
+    }
+    .vid-6{
+        grid-area: v6;
+        font-size: map-get($map: $fontSize, $key: siete );
+    }
+}
+// page actores
+.grid_actores{
+    padding: 20px;
+    box-sizing: border-box;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 170px 680px 640px 180px 640px 650px;
+    grid-template-areas:
+    "tp"
+    "t-1"
+    "a1"
+    "a2"
+    "t-2"
+    "a3"
+    "a4";
+    .img-actores{
+        height: 240px;
+        width: 240px;
+    }
+    .textActores{
+        font-size: 0.75em;
+        margin: 20px;
+        text-align: $centro;
+    }
+    .titulo-principal{
+        grid-area: tp;
+        font-size: 0.63em;
+        margin-top: -10px;
+    }
+    .title1{
+        grid-area: t-1;
+        font-size: 0.73em;
+        text-align: $centro;
+        padding: 20px;
+    }
+    .actor-1{
+        grid-area: a1;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .actor-2{
+        grid-area: a2;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .title2{
+        grid-area: t-2;
+        text-align: $centro;
+        padding: 20px;
+        font-size: 0.73em;
+    }
+    .actor-3{
+        grid-area: a3;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+    .actor-4{
+        grid-area: a4;
+        flex-direction: column-reverse;
+        align-items: $centro;
+        justify-content: $centro;
+    }
+}
+// page hoyoverse
+.title-hoyoverse{
+    font-size: 0.6em;
+}
+.subtitulo-hoyoverse{
+    font-size: 0.8em;
+}
+.contenedor-inf{
+    font-size: 0.7em;
+    .contenedor-img{
+        .img-lugar{
+            width: 270px;
+            height: 200px;
+        }
+    }
+}
+.contenedor-rs{
+    .video-hoyoverse{
+        width: 270px;
+        height: 160px;
+    }
+    .text-vid{
+        font-size: 0.75em;
+    }
+}
+}

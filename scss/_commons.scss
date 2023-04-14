@@ -1,0 +1,14 @@
+h1{
+    font-family: $mainFont;
+    margin-top: 10px;
+    font-size: map-get($map: $fontSize, $key: uno );
+    text-align: $centro;
+}
+h2{
+    font-family: $mainFont;
+    font-size: map-get($map: $fontSize, $key: dos );
+}
+h3{
+    font-family: $mainFont;
+    font-size: map-get($map: $fontSize, $key: tres );
+}

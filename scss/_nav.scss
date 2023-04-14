@@ -1,0 +1,17 @@
+nav{
+    background-color: $mainBg;
+    .nav_font-size{
+        font-family: $mainFont;
+        font-size: map-get($map: $fontSize, $key: cinco );
+        margin-left: 50px;
+        margin-right: 10px;
+    }
+    .logo-size{
+        width: 350px;
+        height: 60px;
+    }
+}
+
+.img-banner{
+    width: 100%;
+}
