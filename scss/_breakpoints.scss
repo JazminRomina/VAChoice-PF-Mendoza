@@ -1092,6 +1092,18 @@ nav{
         justify-content: $centro;
     }
 }
+// pagina error
+.title_error{
+    font-size: map-get($map: $fontSize, $key: tres );
+}
+.img-error{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.texto-404{
+    font-size: 1.1em;
+}
 }
 // 7mo Breakpoint
 @media(max-width: 375px){

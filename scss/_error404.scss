@@ -1,0 +1,25 @@
+.title_error{
+    font-size: map-get($map: $fontSize, $key: dos );
+}
+.img-error{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.contenedor-error{
+    display: $d;
+    box-sizing: border-box;
+    padding: 60px;
+    justify-content: center;
+    flex-direction: column;
+    .contenedor-404{
+        display: $d;
+        justify-content: $centro;
+        align-items: $centro;
+        padding: 20px;
+    }
+}
+.texto-404{
+    text-align: center;
+    font-size: map-get($map: $fontSize, $key: cuatro );
+}
