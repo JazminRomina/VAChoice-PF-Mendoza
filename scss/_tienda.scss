@@ -31,7 +31,7 @@
         figcaption{
             font-size: map-get($map: $fontSize, $key: cuatro );
         }
-        button{
+        a{
             @extend .btn-contacto;
             margin-top: 0;
         }

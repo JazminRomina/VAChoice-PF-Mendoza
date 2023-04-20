@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
-.btn-contacto, .productos figure button {
+.btn-contacto, .productos figure a {
   border: solid;
   background-color: #0C2F5D;
   color: white;
@@ -235,7 +235,7 @@ footer .footer-derechos {
 .productos figure figcaption {
   font-size: 1.4em;
 }
-.productos figure button {
+.productos figure a {
   margin-top: 0;
 }
 
