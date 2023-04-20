@@ -562,7 +562,7 @@ form div textarea {
     grid-area: v6;
   }
   header .img-banner {
-    height: 90vh;
+    width: 100%;
     object-fit: cover;
   }
   .tituloTienda {
@@ -962,10 +962,6 @@ form div textarea {
   }
 }
 @media (max-width: 536px) {
-  .slide img {
-    height: 80vh;
-    object-fit: cover;
-  }
   .grid_index {
     padding: 20px;
     grid-template-columns: 1fr;
@@ -1038,7 +1034,7 @@ form div textarea {
     grid-area: v6;
   }
   header .img-banner {
-    height: 85vh;
+    width: 100%;
   }
   .tituloTienda {
     font-size: 1em;
@@ -1149,10 +1145,6 @@ form div textarea {
   nav .logo-size {
     width: 250px;
     height: 45px;
-  }
-  .slide img {
-    height: 80vh;
-    object-fit: cover;
   }
   .grid_index {
     padding: 10px;
@@ -1297,9 +1289,6 @@ form div textarea {
   nav .logo-size {
     width: 200px;
     height: 40px;
-  }
-  .slide img {
-    height: 80vh;
   }
   .grid_index {
     grid-template-columns: 1fr;

@@ -230,7 +230,7 @@
 // header
 header{
     .img-banner{
-        height: 90vh;
+        width: 100%;
         object-fit: cover;
     }
 }
@@ -705,13 +705,6 @@ nav{
 }
 // 5to Breakpoint
 @media(max-width: 536px){
-// carrousel
-.slide {
-    img{
-        height: 80vh;
-        object-fit: cover;
-    }
-}
 // page index
 .grid_index{
     padding: 20px;
@@ -803,7 +796,7 @@ nav{
 // header
 header{
     .img-banner{
-        height: 85vh;
+        width: 100%;
         }
 }
 // page tienda
@@ -934,12 +927,6 @@ nav{
     .logo-size{
         width: 250px;
         height: 45px;
-    }
-}
-.slide {
-    img{
-        height: 80vh;
-        object-fit: cover;
     }
 }
 // page index
@@ -1113,11 +1100,6 @@ nav{
     .logo-size{
         width: 200px;
         height: 40px;
-    }
-}
-.slide{
-    img{
-        height: 80vh;
     }
 }
 // page index
