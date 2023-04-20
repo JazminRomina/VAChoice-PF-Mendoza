@@ -394,6 +394,12 @@ form div textarea {
   align-items: center;
   padding: 20px;
 }
+.contenedor-error a {
+  font-size: 1.1em;
+}
+.contenedor-error a:hover {
+  color: #0C2F5D;
+}
 
 .texto-404 {
   text-align: center;

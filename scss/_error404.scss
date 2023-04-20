@@ -18,6 +18,12 @@
         align-items: $centro;
         padding: 20px;
     }
+    a{
+        font-size: 1.1em;
+        &:hover{
+            color: #0C2F5D;
+        }
+    }
 }
 .texto-404{
     text-align: center;
